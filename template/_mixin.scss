@@ -1,0 +1,7 @@
+@function em( $size, $context: 16 ) {
+	@return ( $size / $context ) * 1em;
+}
+
+@function font( $weight, $size, $context: 16 ) {
+    @return ( $weight ) ( $size / $context ) * 1em "Poppins", sans-serif;
+}

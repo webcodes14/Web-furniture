@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css" integrity="sha512-FaAQujRxLMvw+BkmGN3w7u9EdQQr1t0vQoY8KDh09+6SFaWSTe+KrT8oCWg25X91hytm5c5BTmiSGQejkraaZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Link to the file hosted on your server, -->
+        <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+        
+        <link rel="stylesheet" href="template/main.css">
+        
+        <title>Document</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js" integrity="sha512-/4kQE5RJQYHRhUiK+CZS8UhaJTnLmQkDuf8lOhiP2xLdjthA/rm0VqqWjcyelIx+NDyNHFmtqvuIgOFQnI34WA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    </head>
+
+    <body class="home">
+
+
+        <div class="loading"></div>
+        
+        <header class="full--width">
+            <div class="menu">
+                <div class="logo">
+                    <img src="images/icons/Meubel-House_Logos-05.svg" alt="Furniro">
+                    <h1><strong>Furniro</strong></h1>
+                </div>
+                <div class="menu-mobile-icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <nav class="nav-pages">
+                    <ul>
+                        <li><a class="active-page" href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-icons">
+                    <ul>
+                        <li><a href="#"><img src="images/icons/mdi_account-alert-outline.svg" alt="Account alert"></a></li>
+                        <li><a class="search-icon-desktop" href="#"><input type="search" name="search" id=""><img src="images/icons/akar-icons_search.svg" alt="Search"></a></li>
+                        <li><a href="#"><img src="images/icons/akar-icons_heart.svg" alt="Like"></a></li>
+                        <li><a href="#"><img src="images/icons/ant-design_shopping-cart-outlined.svg" alt="Buy"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="home" class="home-page">
+                <section class="banner">
+                    <div class="full--width">
+                        <div class="banner-box">
+                            <p>New Arrival</p>
+                            <h2>Discover Our <br>
+                                New Collection
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                            <a href="#"><strong>BUY NOW</strong></a>
+                        </div>
+                    </div>
+                </section>
+                <section class="browse-range">
+                    <h3><strong>Browse The Range</strong></h3>
+                    <p class="side--space">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/images-14.jpg" alt="Dining">
+                            <p><strong>Dining</strong></p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/image-living-room.jpg" alt="Living">
+                            <p><strong>Living</strong></p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/images-8.jpg" alt="Bedroom">
+                            <p><strong>Bedroom</strong></p>
+                        </div>
+                    </div>
+                </section>
+                <section class="products">
+                    <h2>Our Products</h2>
+                    <div class="row">
+                        <div class="product discount">
+                            <img src="images/images.jpg" alt="Syltherine">
+                            <div class="product-text">
+                                <h4 class="product__title">Syltherine</h4>
+                                <p>Stylish cafe chair</p>
+                                <h4 class="product__price">Rp 2.500.000 <span class="price__before__discount">Rp 3.500.000</span></h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img src="images/images-1.jpg" alt="Leviosa">
+                            <div class="product-text">
+                                <h4 class="product__title">Leviosa</h4>
+                                <p>Stylish cafe chair</p>
+                                <h4 class="product__price">Rp 2.500.000</h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product discount">
+                            <img src="images/images-2.jpg" alt="Lolito">
+                            <div class="product-text">
+                                <h4 class="product__title">Lolito</h4>
+                                <p>Luxury big sofa</p>
+                                <h4 class="product__price">Rp 7.000.000 <span class="price__before__discount">Rp 14.000.000</span></h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product product--new">
+                            <img src="images/images-7.jpg" alt="Respira">
+                            <div class="product-text">
+                                <h4 class="product__title">Respira</h4>
+                                <p>Outdoor bar table and stool</p>
+                                <h4 class="product__price">Rp 500.000</h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="product">
+                            <img src="images/images-3.jpg" alt="Grifo">
+                            <div class="product-text">
+                                <h4 class="product__title">Grifo</h4>
+                                <p>Night lamp</p>
+                                <h4 class="product__price">Rp 1.500.000</h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product product--new">
+                            <img src="images/images-4.jpg" alt="Muggo">
+                            <div class="product-text">
+                                <h4 class="product__title">Muggo</h4>
+                                <p>Small mug</p>
+                                <h4 class="product__price">Rp 150.000</h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product discount">
+                            <img src="images/images-5.jpg" alt="Pingky">
+                            <div class="product-text">
+                                <h4 class="product__title">Pingky</h4>
+                                <p>Cute bed set</p>
+                                <h4 class="product__price">Rp 7.000.000 <span class="price__before__discount">Rp 14.000.000</span></h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product product--new">
+                            <img src="images/images-7.jpg" alt="Potty">
+                            <div class="product-text">
+                                <h4 class="product__title">Potty</h4>
+                                <p>Minimalist flower pot</p>
+                                <h4 class="product__price">Rp 500.000</h4>
+                            </div>
+                            <div class="product--hover">
+                                <div class="btn-product--hover">
+                                    <button class="product__add" type="button">Add to cart</button> <br>
+                                    <button class="product__share"><img src="images/icons/share.svg" alt="Share">Share</button>
+                                    <button class="product__compare"><img src="images/icons/compare.svg" alt="Compare">Compare</button>
+                                    <button class="product__like"><img src="images/icons/Heart.svg" alt="Like">Like</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn__show--more" href="#">Show More</a>
+                </section>
+                <section class="rooms full--width">
+                    <div class="row">
+                        <div class="col-1 side--space">
+                            <h3>
+                                <strong>
+                                    50+ Beautiful rooms 
+                                    inspiration
+                                </strong>
+                            </h3>
+                            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                            <a href="#">Explore More</a>
+                        </div>
+                        <div class="col-2 carousel splide" aria-label="Splide Basic HTML Example">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <figure class="image">
+                                            <img src="images/images-17.jpg" alt="Bed Room">
+                                            <div>
+                                                <figcaption>
+                                                    <p>01 <span></span> Bed Room</p>
+                                                    <h4><strong>Inner Peace 1</strong></h4>
+                                                </figcaption>
+                                                <a href="#"><img src="images/icons/arrow-right.png" alt="Inner Peace 4"></a>
+                                            </div>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="image">
+                                            <img src="images/images-18.jpg" alt="Bed Room">
+                                            <div>
+                                                <figcaption>
+                                                    <p>02 <span></span> Bed Room</p>
+                                                    <h4><strong>Inner Peace 2</strong></h4>
+                                                </figcaption>
+                                                <a href="#"><img src="images/icons/arrow-right.png" alt="Inner Peace 2"></a>
+                                            </div>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="image">
+                                            <img src="images/images-19.jpg" alt="Bed Room">
+                                            <div>
+                                                <figcaption>
+                                                    <p>03 <span></span> Bed Room</p>
+                                                    <h4><strong>Inner Peace 3</strong></h4>
+                                                </figcaption>
+                                                <a href="#"><img src="images/icons/arrow-right.png" alt="Inner Peace 3"></a>
+                                            </div>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="image">
+                                            <img src="images/images-18.jpg" alt="Bed Room">
+                                            <div>
+                                                <figcaption>
+                                                    <p>04 <span></span> Bed Room</p>
+                                                    <h4><strong>Inner Peace 4</strong></h4>
+                                                </figcaption>
+                                                <a href="#"><img src="images/icons/arrow-right.png" alt="Inner Peace 4"></a>
+                                            </div>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="furniture">
+                    <p>Share your setup with</p>
+                    <h2><strong>#FuniroFurniture</strong></h2>
+                    <div class="gallery full--width">
+                        <div>
+                            <a href="images/images-20.jpg">
+                                <img src="images/images-20.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-21.jpg">
+                                <img src="images/images-21.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-22.jpg">
+                                <img src="images/images-22.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-23.jpg">
+                                <img src="images/images-23.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-24.jpg">
+                                <img src="images/images-24.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-25.jpg">
+                                <img src="images/images-25.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-26.jpg">
+                                <img src="images/images-26.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-27.jpg">
+                                <img src="images/images-27.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="images/images-28.jpg">
+                                <img src="images/images-28.jpg" alt="Furniture">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="full--width">
+            <div>
+                <div class="footer-info">
+                    <div class="address">
+                        <h2><strong>Funiro.</strong></h2>
+                        <p>
+                            400 University Drive Suite 200 Coral Gables, <br>
+                            FL 33134 USA
+                        </p>
+                    </div>
+                    <div class="links">
+                        <h4><strong>Links</strong></h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="help">
+                        <h4><strong>Help</strong></h4>
+                        <ul>
+                            <li><a href="#">Payment Options</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Privacy Policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter">
+                        <h4><strong>Newsletter</strong></h4>
+                        <input class="newsletter__mail" type="email" placeholder="Enter Your Email Address">
+                        <input class="newsletter__btn" type="submit" value="SUBSCRIBE">
+                    </div>
+                </div>
+                <div class="reserved">
+                    <p>2023 furino. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+        <script src="template/script.js"></script>
+    </body>
+
+</html>

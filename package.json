@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@types/jquery": "^3.5.29"
+  }
+}

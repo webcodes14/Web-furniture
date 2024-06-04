@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: font(400, 16);
+}
+
+.full--width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.side--space {
+    padding: 0 10px;
+}
+
+body img {
+    max-width: 100%;
+}
+
+.sl-overlay {
+    background-color: $black;
+}
+
+.sl-wrapper .sl-navigation button,
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-counter {
+    color: $white;
+}
