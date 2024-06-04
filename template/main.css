@@ -419,7 +419,6 @@ footer > div .reserved p {
   max-width: 643px;
   padding: 3.9375em 2.5625em 2.875em;
   margin-left: auto;
-  margin-right: 58px;
   color: #333333;
 }
 .home-page .banner .banner-box h2 {
@@ -834,6 +833,9 @@ footer > div .reserved p {
   .home-page .rooms .row .col-2 ul.splide__list .is-active[aria-label="4 of 4"] {
     height: 486px;
     right: 28px;
+  }
+  .home-page .banner .banner-box {
+    margin-right: 58px;
   }
 }
 @media screen and (min-width: 992px) {
